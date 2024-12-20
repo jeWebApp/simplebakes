@@ -26,6 +26,7 @@
 
       .container {
         margin-top: 50px;
+        margin-bottom: 50px;
         padding: 50px 20px;
         background-color: #fffaf0;
         border-radius: 10px;
@@ -39,6 +40,11 @@
 
       h1, h3 {
         text-align: center;
+      }
+
+      .logo {
+        width: 160px;
+        height: 120px;
       }
 
       .instruction {
@@ -73,10 +79,13 @@
     </style>
   </head>
   <body>
-    <div class="d-flex align-items-center justify-content-center vh-100">
+    <div class="">
       <div class="container">
         <h1>Simple Bakes</h1>
-        <h3>Steps to Reheat Shiopan</h3>
+        <div class="row justify-content-center align-items-center">
+          <img class="logo col-sm-12" src="./shiopan_logo.png"/>
+          <h3 class="col-sm-12">Steps to Reheat Shiopan</h3>
+        </div>
         <div class="instruction">
           Thank you for choosing Simple Bakes for your Shio-pan! 🥐 Remember,
           they're best fresh but still tasty reheated.<br /><br />
